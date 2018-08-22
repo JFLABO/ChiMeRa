@@ -1,0 +1,113 @@
+.tooltip {	position: relative;}	.tooltip .tooltipBody {		border: solid 2px #f98325;		-moz-border-radius: 4px;		-webkit-border-radius: 4px;		border-radius: 4px;		position: absolute;		left: 1em;		top: -2.7em;		text-decoration: none;		visibility: hidden;		padding: 3px 5px;		width: 200px;		zoom: 1;	}	.tooltip:hover ,	.tooltip:hover .tooltipBody {		background-color: white;		visibility: visible;		z-index: 10;	}	.tooltip .tooltipBody .tooltipAngle {		border-right: solid 10px transparent;		border-left-width: 0;		border-top: solid 10px #f98325;		line-height: 0;		position: absolute;		left: 1em;		bottom: -10px;	}	.tooltip .tooltipBody .tooltipAngle .tooltipAngleInner {		border-right: solid 5px transparent;		border-left-width: 0;		border-top: solid 5px white;		line-height: 0;		position: absolute;		left: 2px;		bottom: 5px;	}	/*		not supported tanseparent for border by IE6.	*/	* html .tooltip .tooltipBody .tooltipAngle {		border-right-color: white;		bottom: -11px;	}	* html .tooltip .tooltipBody .tooltipAngle .tooltipAngleInner {		border-right-color: #f98325;	}
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* 複数の異なるブラウザの初期設定値に対応するため、body エレメントのマージンと余白を 0 にすることをお勧めします */
+	padding: 0;
+	text-align: center; /* これにより、IE 5* ブラウザではコンテナが中央揃えになります。そして、テキストは、#container セレクタの初期設定である左揃えに設定されます */
+	color: #000000;
+}
+.oneColLiqCtrHdr #container {
+	width: 970px;  /* これにより、幅がブラウザの幅の 80% のコンテナが設定されます */
+	background: #FFFFFF;
+	margin: 0 auto; /* 自動マージン（幅と連動）により、ページが中央揃えになります */
+	border: 1px solid #000000;
+	text-align: left; /* この設定は body エレメントの text-align: center より優先されます。 */
+}
+.oneColLiqCtrHdr #header {
+	padding: 0 10px 0 20px;  /* この余白は、その下に表示される div のエレメントの左揃えと一致します。#header でテキストの代わりにイメージが使用される場合は、必要に応じて、余白を削除してください。 */
+	background-color: #222222;
+	background-image: url(tabirepo.png);
+}
+.oneColLiqCtrHdr #cmd {
+	padding: 0 10px 0 20px;  /* この余白は、その下に表示される div のエレメントの左揃えと一致します。#header でテキストの代わりにイメージが使用される場合は、必要に応じて、余白を削除してください。 */
+	background-color: #666666;
+	background-image: url(bar01.jpg);
+	height: 23px;
+}
+.oneColLiqCtrHdr #cmd2 {
+	background-color: #cbcbcb;
+	background-image: url(cmdbar.jpg);
+	height: 30px;
+}
+.oneColLiqCtrHdr #line {
+	padding: 0 20px 0 20px;  /* この余白は、その下に表示される div のエレメントの左揃えと一致します。#header でテキストの代わりにイメージが使用される場合は、必要に応じて、余白を削除してください。 */
+	background-color: #FF9900;
+	background-image: url(efbarOrange.jpg);
+	height: 11px;
+}
+.oneColLiqCtrHdr #header h1 {
+	margin: 0; /* #header div の最後のエレメントのマージンを 0 に設定することにより、マージンの相殺（div 間の原因不明のスペース）が回避されます。div の周囲に境界線が適用されている場合は、境界線によってマージンの相殺が回避されるため、この操作は不要です */
+	padding: 10px 0; /* マージンの代わりに余白を使用して、エレメントを div の端に接触しない位置に維持することができます */
+}
+.oneColLiqCtrHdr #mainContent {
+	padding: 0 20px; /* 余白は div ボックスの内側のスペース、マージンは div ボックスの外側のスペースです */
+	background: #FFFFFF;
+}
+.oneColLiqCtrHdr #footer {
+	background-color: #DDDDDD;
+	background-image: url(tabirepoL.png);
+	height: 20px;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 10px;
+} 
+.oneColLiqCtrHdr #footer p {
+	margin: 0; /* フッターの最初のエレメントのマージンを 0 に設定することにより、マージンの相殺（div 間のスペース）が回避されます */
+	padding: 10px 0; /* このエレメントの余白により、マージンの相殺を発生させることなく、マージンの効果とまったく同じように、スペースが設定されます */
+}
+.style1 {color: #FFFFFF}
+.style2 {
+	color: #999999;
+	font-size: 9px;
+}
+.style3 {
+	color: #CCCCCC;
+	font-size: 9pt;
+}
+.style5 {
+	font-size: 9px
+}
+.style8 {font-size: 11px}
+.style12 {font-size: 14px}
+.style13 {font-size: 12px}
+.style14 {font-size: 11px;color: #f0f0f0;}
+a:link {
+	color: #333333;
+}
+a:visited {
+	color: #333333;
+}
+a:hover {
+	color: #993333;
+}
+
+
+.fixed {
+  position: fixed;
+  top: 20px;
+}
+
+div.comment {
+ position: relative;
+ width: 100% ;
+ min-height:100px;
+ margin:0;
+}
+
+div.comment span.linkarea {
+ margin:0;
+ padding:0;
+}
+div.comment span.linkarea a {
+ display: block ;
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ text-indent:-999px;
+ background/*\**/: #fff\9; /*IE7、8用ハック*/
+ filter:alpha(opacity=0); /*フィルターで透明に*/
+}
