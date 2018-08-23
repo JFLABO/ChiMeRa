@@ -18,7 +18,7 @@ php-mbstringをサーバに導入してください
 2. git clone https://github.com/JFLABO/ChiMeRa.git
 
 エディタはEmacsまたはviでサーバ上でファイルを書き換えます。
-まず、次のファイルを書き換えてみてください。
+まず、次のファイルを書き換えてブラウザでアクセスしてみてください。
 
 ChiMeRa/data/your_note.chimera
 
