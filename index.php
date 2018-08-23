@@ -63,7 +63,7 @@ $Title_min="JFLABO::ChiMeRa";
 	<div style="padding:5px 0px 2px 0px; height:5px;background-color:black;width:100%;"></div>
     <BR>
 NAVI
-    <div class="btn_top">ページ上部へ</div><BR>
+	    <div class="btn_top"><B>[[ページ上部へ]]</B></div><BR>
 <?php 
 	    //右メニュー部分の生成
 	    //ChiMeRa/parts/ChiMeRaClassV0.php
