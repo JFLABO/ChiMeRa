@@ -20,7 +20,7 @@ php-mbstringをサーバに導入してください
 エディタはEmacsまたはviでサーバ上でファイルを書き換えます。
 まず、次のファイルを書き換えてブラウザでアクセスしてみてください。
 
-ChiMeRa/data/your_note.chimera
+　ChiMeRa/data/your_note.chimera
 
 #追加開発機能：
 
