@@ -57,7 +57,8 @@ function show_list(){
 
 	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata10">問題提起・課題</a><BR>';
 	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata11">推薦図書</a><BR><BR>';
-	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata12">[R&D]</a><BR>';
+	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata12">[R&D]</a><BR><BR>';
+	  echo '<a href="./api/json.php?param=JFLABO::ChiMeRa::necessary_thing">[JSON]</a>';
 }
 	
 public $title="JFLABO::ChiMeRa->EmacsTips チュートリアル 2013";
