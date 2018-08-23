@@ -41,6 +41,7 @@ private $data_source_m = "./data/hinagata11.chimera";
 private $data_source_n = "./data/hinagata12.chimera";
 
 public $title="JFLABO::ChiMeRa->EmacsTips チュートリアル 2013";
+//ページタイトルを変えたいときはここを編集してください
 function get_title(){
 			if(isset($_GET['param'])){
 					if($_GET['param']=="EmacsTips チュートリアル 2013"){
