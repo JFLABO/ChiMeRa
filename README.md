@@ -19,6 +19,7 @@ php-mbstringをサーバに導入してください
 
 エディタはEmacsまたはviでサーバ上でファイルを書き換えます。
 次のファイルを書き換えてみてください。
+
 ChiMeRa/data/your_note.chimera
 
 #追加開発機能：
