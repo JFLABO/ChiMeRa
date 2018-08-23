@@ -55,9 +55,7 @@ php-mbstringをサーバに導入してください
 
 
 
-GrpouWork API
-
-e.g.)
+GrpouWork API e.g.)
 
   http://your_server_uri/~author/ChiMeRa/api/json.php?param=JFLABO::ChiMeRa::necessary_thing
   
