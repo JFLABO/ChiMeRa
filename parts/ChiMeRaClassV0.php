@@ -53,7 +53,7 @@ function get_title(){
 					}elseif($_GET['param']=="JFLABO::ChiMeRa::Hinagata2"){
 							$this->title="JFLABO::ChiMeRa->Hinagata2";
 					}elseif($_GET['param']=="JFLABO::ChiMeRa::Hinagata3"){
-							$this->title="JFLABO::ChiMeRa->Hinagata3";
+							$this->title="JFLABO::ChiMeRa->necessary_thing";
 					}elseif($_GET['param']=="JFLABO::ChiMeRa::Hinagata4"){
 							$this->title="JFLABO::ChiMeRa->Hinagata4";
 					}elseif($_GET['param']=="JFLABO::ChiMeRa::Hinagata5"){
@@ -86,7 +86,7 @@ function get_title(){
 	  echo '<a href="./?param=EmacsTips チュートリアル 2013">Emacs Tutorial</a><BR>';
 	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata">ひながた</a><BR>';
 	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata2">ひながた2</a><BR>';
-	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata3">あなたに必要なもの</a><BR><BR>';
+	  echo '<a href="./?param=JFLABO::ChiMeRa::necessary_thing">あなたに必要なもの</a><BR><BR>';
 
 	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata4">社内ニュース</a><BR>';
 	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata5">経営方針</a><BR>';
@@ -115,9 +115,9 @@ function get_title(){
 					}elseif($_GET['param']=="JFLABO::ChiMeRa::Hinagata2"){
 							$S=file_get_contents($this->data_source_d);
 							$this->title="JFLABO::ChiMeRa->Hinagata2";
-					}elseif($_GET['param']=="JFLABO::ChiMeRa::Hinagata3"){
+					}elseif($_GET['param']=="JFLABO::ChiMeRa::necessary_thing"){
 							$S=file_get_contents($this->data_source_e);
-							$this->title="JFLABO::ChiMeRa->Hinagata3";
+							$this->title="JFLABO::ChiMeRa->necessary_thing";
 					}elseif($_GET['param']=="JFLABO::ChiMeRa::Hinagata4"){
 							$S=file_get_contents($this->data_source_f);
 							$this->title="JFLABO::ChiMeRa->Hinagata4";
