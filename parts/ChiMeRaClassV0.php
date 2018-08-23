@@ -40,6 +40,26 @@ private $data_source_l = "./data/hinagata10.chimera";
 private $data_source_m = "./data/hinagata11.chimera";
 private $data_source_n = "./data/hinagata12.chimera";
 
+function show_list(){
+	  //右のメニュータイルに表示するリンクを変えたいときはここを編集してください
+	  echo '<a href="./?param=JFLABO::ChiMeRa::Your Note">Your Note</a><BR>';
+	  echo '<a href="./?param=EmacsTips チュートリアル 2013">Emacs Tutorial</a><BR>';
+	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata">ひながた</a><BR>';
+	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata2">ひながた2</a><BR>';
+	  echo '<a href="./?param=JFLABO::ChiMeRa::necessary_thing">あなたに必要なもの</a><BR><BR>';
+
+	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata4">社内ニュース</a><BR>';
+	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata5">経営方針</a><BR>';
+	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata6">企画部</a><BR>';
+	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata7">営業部</a><BR>';
+	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata8">技術部</a><BR>';
+	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata9">IR情報</a><BR><br>';
+
+	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata10">問題提起・課題</a><BR>';
+	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata11">推薦図書</a><BR><BR>';
+	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata12">[R&D]</a><BR>';
+}
+	
 public $title="JFLABO::ChiMeRa->EmacsTips チュートリアル 2013";
 //ページタイトルを変えたいときはここを編集してください
 function get_title(){
@@ -80,25 +100,7 @@ function get_title(){
 			}
 			return $this->title;
 }
-	function show_list(){
-	  //右のメニュータイルに表示するリンクを変えたいときはここを編集してください
-	  echo '<a href="./?param=JFLABO::ChiMeRa::Your Note">Your Note</a><BR>';
-	  echo '<a href="./?param=EmacsTips チュートリアル 2013">Emacs Tutorial</a><BR>';
-	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata">ひながた</a><BR>';
-	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata2">ひながた2</a><BR>';
-	  echo '<a href="./?param=JFLABO::ChiMeRa::necessary_thing">あなたに必要なもの</a><BR><BR>';
 
-	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata4">社内ニュース</a><BR>';
-	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata5">経営方針</a><BR>';
-	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata6">企画部</a><BR>';
-	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata7">営業部</a><BR>';
-	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata8">技術部</a><BR>';
-	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata9">IR情報</a><BR><br>';
-
-	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata10">問題提起・課題</a><BR>';
-	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata11">推薦図書</a><BR><BR>';
-	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata12">[R&D]</a><BR>';
-	}
 	function show_file(){
 			//不正実行対策の為ファイル名は登録制　
 			//安全な場合はファイル名可変に変更する案もある
