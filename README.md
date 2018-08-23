@@ -53,6 +53,6 @@ php-mbstringをサーバに導入してください
 
 GrpouWork API
 
-p.g.)
+e.g.)
 
   http://xxxx/ChiMeRa/api/json.php?param=JFLABO::ChiMeRa::necessary_thing
