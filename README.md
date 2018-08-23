@@ -13,7 +13,7 @@ php-mbstringをサーバに導入してください
 
 インストール方法　[はじめかた]
 
-1. cd your_projects
+1. cd your_www_projects
 
 2. git clone https://github.com/JFLABO/ChiMeRa.git
 
