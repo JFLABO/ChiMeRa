@@ -1,6 +1,7 @@
 <?php
 $S = file_get_contents('../data/hinagata.chimera');
 $data_source = "../data/emacs_turorial_jp.chimera";
+//your_note.chimera　hinagata7.chimeraなどは好きな名前に変更してください。
 //$data_source = "../data/your_note.chimera";
 $data_source_b = "../data/your_note.chimera";
 $data_source_c = "../data/hinagata.chimera";
@@ -18,6 +19,7 @@ $data_source_n = "../data/hinagata12.chimera";
 //echo $S;
 if(isset($_GET['param'])){
     if($_GET['param']=="EmacsTips チュートリアル 2013"){
+        //ここを書き換えるとアクセス時に使用するURLを思い通りにすることができます。
         $title="JFLABO::ChiMeRa->EmacsTips チュートリアル 2013";
     }elseif($_GET['param']=="JFLABO::ChiMeRa::Your Note"){
         $title="JFLABO::ChiMeRa->Your Note";
