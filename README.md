@@ -67,7 +67,7 @@ index.phpはデザインファイルです。必要であれば好きなよう�
 
 
 
-GrpouWork API e.g.)
+GroupWork API e.g.)
 
 　http://your_server_uri/~author/ChiMeRa/api/json.php?param=JFLABO::ChiMeRa::necessary_thing
   
