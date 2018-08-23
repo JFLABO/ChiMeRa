@@ -59,4 +59,4 @@ GrpouWork API
 
 e.g.)
 
-  http://server_uri/ChiMeRa/api/json.php?param=JFLABO::ChiMeRa::necessary_thing
+  http://your_server_uri/ChiMeRa/api/json.php?param=JFLABO::ChiMeRa::necessary_thing
