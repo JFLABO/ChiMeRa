@@ -59,4 +59,7 @@ GrpouWork API
 
 e.g.)
 
-  http://your_server_uri/ChiMeRa/api/json.php?param=JFLABO::ChiMeRa::necessary_thing
+  http://your_server_uri/~author/ChiMeRa/api/json.php?param=JFLABO::ChiMeRa::necessary_thing
+  
+  apache UserDir ディレクティブのmodとPHPを有効にしてskelでインストールすることをお勧めします。
+  UserDir public_html
