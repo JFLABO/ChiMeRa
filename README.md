@@ -41,10 +41,14 @@ ChiMeRa/data/your_note.chimera
 
 綴るために作られました。
 
+[デザイナさんへ]
+
 index.phpはデザインファイルです。必要であれば好きなような見栄えにカスタムしてください。
 
 ローカルコンピュータ（イントラ）、またはＶＰＳサーバ、ラズベリーパイなどで動作します。
 
+
+[エンジニアさんへ]
 キーボードをＢｌｕｅｔｏｏｔｈ接続したスマートホンからsshでサーバに接続してEmacsの練習をしている人もいます。
 
 インターネットにつながらないところでの取材、作文に便利です。活動記録、ネタ帳として
@@ -55,6 +59,9 @@ index.phpはデザインファイルです。必要であれば好きなよう�
 
 ./img/ディレクトリをＤＶＤなどに記録しておいてください。
 
+　apache UserDir ディレクティブのmodとPHPを有効にしてskelでインストールすることをお勧めします。
+ 
+  UserDir public_html
 
 
 
@@ -63,5 +70,3 @@ GrpouWork API e.g.)
 
   http://your_server_uri/~author/ChiMeRa/api/json.php?param=JFLABO::ChiMeRa::necessary_thing
   
-  apache UserDir ディレクティブのmodとPHPを有効にしてskelでインストールすることをお勧めします。
-  UserDir public_html
