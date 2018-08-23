@@ -60,7 +60,8 @@ $Title_min="JFLABO::ChiMeRa";
         <td width="251" valign="top" >
 
 <div id="nav" style="background-color:white;display:inline-block;height:515px;width:246px;text-align:center;vertical-align:top;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-moz-box-shadow: 1px 1px 3px #000;-webkit-box-shadow: 1px 1px 3px #000;">
-    <div style="padding:5px 0px 2px 0px; height:5px;background-color:black;width:100%;"></div>
+<div style="position: relative; top: 60px;margin-left:100px;height:190px;width:115px;background-image:url(30-007.png);"></div>
+	<div style="padding:5px 0px 2px 0px; height:5px;background-color:black;width:100%;"></div>
     <BR>
 NAVI
     <div class="btn_top">ページ上部へ</div><BR>
