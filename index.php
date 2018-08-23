@@ -4,6 +4,7 @@ $UT2=new ChiMeRa_emacs_class();
 $Title=$UT2->get_title();
 //$Title="JFLABO::TechBlog（ジェイエフラボのテックブログ）　->Emacsチュートリアル 2013";
 $Title_min="JFLABO::ChiMeRa";
+///ChiMeRa/api/json.php?param=JFLABO::ChiMeRa::Hinagata2　で記事をjsonフォーマットに変換する機能を追加しました
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
