@@ -9,6 +9,7 @@
 php mbstringをサーバに導入してください
 
 cd your_projects
+
 sudo git clone https://github.com/JFLABO/ChiMeRa.git
 
 エディタはEmacsでサーバ上でファイルを書き換えます。
