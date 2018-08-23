@@ -150,6 +150,9 @@ function get_title(){
 			}else{
 							$S=file_get_contents($this->data_source);
 			}
+		
+		
+	  //ここから下はコンピュータさん向けの処理の依頼です。動いていれば理解しようとしなくてもいいです。
 	  $sep="--- -- -- -- --";
       	  $ar_bdy=explode("\n",$S);
 	  $stack_ptr;
