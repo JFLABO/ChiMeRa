@@ -8,11 +8,13 @@
 必要な情報が簡単に整理できてポンと出てくるシステム　運用も直感的で習得しやすい
 php mbstringをサーバに導入してください
 
-cd your_projects
+インストール方法　[はじめかた]
 
-git clone https://github.com/JFLABO/ChiMeRa.git
+1. cd your_projects
 
-エディタはEmacsでサーバ上でファイルを書き換えます。
+2. git clone https://github.com/JFLABO/ChiMeRa.git
+
+エディタはEmacsまたはviでサーバ上でファイルを書き換えます。
 
 #追加開発機能：
 
