@@ -59,7 +59,7 @@ index.phpはデザインファイルです。必要であれば好きなよう�
 
 ./img/ディレクトリをＤＶＤなどに記録しておいてください。
 
-　apache UserDir ディレクティブのmodとPHPを有効にしてskelでインストールすることをお勧めします。
+　apache UserDir ディレクティブのmodとPHPを有効にしてユーザ追加時にskelでインストールすることをお勧めします。
  
   UserDir public_html
 
