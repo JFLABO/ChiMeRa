@@ -81,11 +81,12 @@ function get_title(){
 			return $this->title;
 }
 	function show_list(){
+	  //右のメニュータイルに表示するリンクを変えたいときはここを編集してください
 	  echo '<a href="./?param=JFLABO::ChiMeRa::Your Note">Your Note</a><BR>';
 	  echo '<a href="./?param=EmacsTips チュートリアル 2013">Emacs Tutorial</a><BR>';
 	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata">ひながた</a><BR>';
 	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata2">ひながた2</a><BR>';
-	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata3">ひながた3</a><BR><BR>';
+	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata3">あなたに必要なもの</a><BR><BR>';
 
 	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata4">社内ニュース</a><BR>';
 	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata5">経営方針</a><BR>';
