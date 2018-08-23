@@ -62,12 +62,12 @@ index.phpはデザインファイルです。必要であれば好きなよう�
 
 　apache UserDir ディレクティブのmodとPHPを有効にしてユーザ追加時にskelでインストールすることをお勧めします。
  
-  UserDir public_html
+　UserDir public_html
 
 
 
 
 GrpouWork API e.g.)
 
-  http://your_server_uri/~author/ChiMeRa/api/json.php?param=JFLABO::ChiMeRa::necessary_thing
+　http://your_server_uri/~author/ChiMeRa/api/json.php?param=JFLABO::ChiMeRa::necessary_thing
   
