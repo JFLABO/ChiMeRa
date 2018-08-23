@@ -21,7 +21,8 @@ php-mbstringをサーバに導入してください
 
 #追加開発機能：
 
-#アダプタを作成します。JSON XML
+#アダプタを作成しました。JSON XML
+ ChiMeRa/api/xmlapi.php
 
 #日付を含むとアトリビュートが出る
 
