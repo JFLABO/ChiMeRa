@@ -1,7 +1,7 @@
 <?php
 /**
  * ChiMeRaの関数群 試作　第1版　(Alpha-01)
- *
+ * [Framework MicroCode]
  * @link       http://pjfs.biz
  *
  * @category   internet_system
