@@ -26,9 +26,9 @@ ChiMeRa/data/your_note.chimera
 
 #アダプタを作成しました。JSON XML
 
- ChiMeRa/api/xmlapi.php?param=ファイル名
+　ChiMeRa/api/xmlapi.php?param=ファイル名
 
- ChiMeRa/api/json.php?param=ファイル名
+　ChiMeRa/api/json.php?param=ファイル名
 
 #日付を含むとアトリビュートが出る
 
