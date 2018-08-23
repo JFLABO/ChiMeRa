@@ -61,7 +61,11 @@ $Title_min="JFLABO::ChiMeRa";
     <BR>
 NAVI
     <div class="btn_top">ページ上部へ</div><BR>
-<?php $UT2->show_list();?>
+<?php 
+	    //右メニュー部分の生成
+	    //data/
+	    $UT2->show_list();
+	    ?>
 
 </div>    
          </td></table><BR><BR>
