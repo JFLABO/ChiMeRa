@@ -6,7 +6,7 @@ $data_source = "../data/emacs_turorial_jp.chimera";
 $data_source_b = "../data/your_note.chimera";
 $data_source_c = "../data/hinagata.chimera";
 $data_source_d = "../data/hingishyo.chimera";
-$data_source_e = "../data/hinagata3.chimera";
+$data_source_e = "../data/necessary_thing.chimera";
 $data_source_f = "../data/hinagata4.chimera";
 $data_source_g = "../data/hinagata5.chimera";
 $data_source_h = "../data/hinagata6.chimera";
@@ -27,7 +27,7 @@ if(isset($_GET['param'])){
         $title="JFLABO::ChiMeRa->Hinagata";
     }elseif($_GET['param']=="JFLABO::ChiMeRa::Hinagata2"){
         $title="JFLABO::ChiMeRa->Hinagata2";
-    }elseif($_GET['param']=="JFLABO::ChiMeRa::Hinagata3"){
+    }elseif($_GET['param']=="JFLABO::ChiMeRa::necessary_thing"){
         $title="JFLABO::ChiMeRa->Hinagata3";
     }elseif($_GET['param']=="JFLABO::ChiMeRa::Hinagata4"){
         $title="JFLABO::ChiMeRa->Hinagata4";
@@ -62,7 +62,7 @@ if(isset($_GET['param'])){
         $S=file_get_contents($data_source_c);
     }elseif($_GET['param']=="JFLABO::ChiMeRa::Hinagata2"){
         $S=file_get_contents($data_source_d);
-    }elseif($_GET['param']=="JFLABO::ChiMeRa::Hinagata3"){
+    }elseif($_GET['param']=="JFLABO::ChiMeRa::necessary_thing"){
         $S=file_get_contents($data_source_e);
     }elseif($_GET['param']=="JFLABO::ChiMeRa::Hinagata4"){
         $S=file_get_contents($data_source_f);
