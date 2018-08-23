@@ -117,13 +117,13 @@ echo "<xml>\n";
 for ($i = 0; $i < count($stack); $i++) {
   echo "<item>";
   echo "<title>";
-      echo "\"".$stack[$i][1]."\""."";
+      echo $stack[$i][1];
     echo "</title>";
   echo "<body>";
-    echo "\"".$CPT_block[$i][1]."\"";
+    echo $CPT_block[$i][1];
   echo "</body>";
   echo "<date>";
-  //日付フォーマットのテキストマイニング
+  //日付フォーマットのテキストマイニング　自動日付検出追加予定
   echo "</date>";
   echo "</item>"."\n";
 }
