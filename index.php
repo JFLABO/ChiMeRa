@@ -63,7 +63,7 @@ NAVI
     <div class="btn_top">ページ上部へ</div><BR>
 <?php 
 	    //右メニュー部分の生成
-	    //data/
+	    //ChiMeRa/parts/ChiMeRaClassV0.php
 	    $UT2->show_list();
 	    ?>
 
