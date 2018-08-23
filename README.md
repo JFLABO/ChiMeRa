@@ -52,5 +52,7 @@ php-mbstringをサーバに導入してください
 ./img/ディレクトリをＤＶＤなどに記録しておいてください。
 
 GrpouWork API
+
 p.g.)
+
   http://xxxx/ChiMeRa/api/json.php?param=JFLABO::ChiMeRa::necessary_thing
