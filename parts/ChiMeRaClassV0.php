@@ -28,8 +28,8 @@ class ChiMeRa_emacs_class{
 private $data_source = "./data/emacs_turorial_jp.chimera";
 private $data_source_b = "./data/your_note.chimera";
 private $data_source_c = "./data/hinagata1.chimera";
-private $data_source_d = "./data/necessary_thing.chimera";
-private $data_source_e = "./data/hinagata3.chimera";
+private $data_source_d = "./data/hinagata2.chimera";
+private $data_source_e = "./data/necessary_thing.chimera";
 private $data_source_f = "./data/hinagata4.chimera";
 private $data_source_g = "./data/hinagata5.chimera";
 private $data_source_h = "./data/hinagata6.chimera";
