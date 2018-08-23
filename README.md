@@ -73,4 +73,9 @@ index.phpはデザインファイルです。必要であれば好きなよう�
 GroupWork API e.g.)
 
 　http://your_server_uri/~author/ChiMeRa/api/json.php?param=JFLABO::ChiMeRa::necessary_thing
-  
+
+
+  議員名簿、学級名簿からソフトウエアをインストールしたユーザを作るシェルスクリプト
+　各位の意見を機械で一気に抽出したい
+　ＳＮＳでは組織外に情報が拡散してしまうため、隔離された環境で議論したい
+  問題・課題を抽出し、欠けを補い解決する
