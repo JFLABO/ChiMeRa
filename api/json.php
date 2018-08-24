@@ -115,6 +115,7 @@ $CPT_block[$j][]=$ar_bdy[$k];
 
 //var_dump($stack);
 //var_dump($CPT_block);
+$comming_soon_or_do_it_yourself="180";
 echo "{"."\n";
 for ($i = 0; $i < count($stack); $i++) {
   echo "\"title\":";
