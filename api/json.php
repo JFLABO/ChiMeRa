@@ -123,6 +123,7 @@ for ($i = 0; $i < count($stack); $i++) {
     echo ",";
   echo "\"body\":";
     echo "\"".$CPT_block[$i][1]."\""."\n";
+    echo ",";
   echo "\"priority_or_score_type_A_etc...\":";
     echo "\"".$comming_soon_or_do_it_yourself."\""."\n";
 }
