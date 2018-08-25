@@ -125,7 +125,7 @@ for ($i = 0; $i < count($stack); $i++) {
   foreach($CPT_block[$i] as $val){
     $str=$str.$val."\n";
   }
-  echo "\"".addslashes($str)."\""."\n";
+  echo addslashes($str)."\n";
   echo "</body>";
   echo "<date>";
   //日付フォーマットのテキストマイニング　自動日付検出追加予定
