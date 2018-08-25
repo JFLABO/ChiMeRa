@@ -119,10 +119,10 @@ $comming_soon_or_do_it_yourself="180";
 echo "{"."\n";
 for ($i = 0; $i < count($stack); $i++) {
   echo "\"title\":";
-    echo "\"".$stack[$i][1]."\""."\n";
+    echo "\"".addslashes($stack[$i][1])."\""."\n";
     echo ",";
   echo "\"body\":";
-    echo "\"".$CPT_block[$i][1]."\""."\n";
+    echo "\"".addslashes($CPT_block[$i][1])."\""."\n";
     echo ",";
   echo "\"priority_or_score_type_A_etc...\":";
     echo "\"".$comming_soon_or_do_it_yourself."\""."\n";
