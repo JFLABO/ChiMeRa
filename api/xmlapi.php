@@ -118,14 +118,14 @@ echo "<xml>\n";
 for ($i = 0; $i < count($stack); $i++) {
   echo "<item>";
   echo "<title>";
-      echo $stack[$i][1];
+      echo str_replace('"', "&quot;",$stack[$i][1]);
     echo "</title>\n";
   echo "<body>";
   $str="";
   foreach($CPT_block[$i] as $val){
     $str=$str.$val."\n";
   }
-  echo addslashes($str)."\n";
+  echo str_replace('"', "&quot;",$str)."\n";
   echo "</body>";
   echo "<date>";
   //日付フォーマットのテキストマイニング　自動日付検出追加予定
