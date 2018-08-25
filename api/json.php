@@ -122,12 +122,17 @@ for ($i = 0; $i < count($stack); $i++) {
     echo "\"".addslashes($stack[$i][1])."\""."\n";
     echo ",";
   echo "\"body\":";
-    echo "\"".addslashes($CPT_block[$i][1])."\""."\n";
+    $str="";
+    foreach($CPT_block[$i] as $val){
+      $str=$str.$val."\n";
+    }
+    echo "\"".addslashes($str)."\""."\n";
     echo ",";
   echo "\"priority_or_score_type_A_etc...\":";
     echo "\"".$comming_soon_or_do_it_yourself."\""."\n";
 }
 echo "}";
+
 //print count($stack);
 //echo $homepage;
 //echo "a";

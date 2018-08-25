@@ -113,14 +113,19 @@ $CPT_block[$j][]=$ar_bdy[$k];
 
 //var_dump($stack);
 //var_dump($CPT_block);
+
 echo "<xml>\n";
 for ($i = 0; $i < count($stack); $i++) {
   echo "<item>";
   echo "<title>";
       echo $stack[$i][1];
-    echo "</title>";
+    echo "</title>\n";
   echo "<body>";
-    echo $CPT_block[$i][1];
+  $str="";
+  foreach($CPT_block[$i] as $val){
+    $str=$str.$val."\n";
+  }
+  echo "\"".addslashes($str)."\""."\n";
   echo "</body>";
   echo "<date>";
   //日付フォーマットのテキストマイニング　自動日付検出追加予定

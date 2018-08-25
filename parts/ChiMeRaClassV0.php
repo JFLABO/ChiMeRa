@@ -6,7 +6,7 @@
  *
  * @category   internet_system
  * @package    JFLABO
- * @copyright  JFLABO 
+ * @copyright  JFLABO
  * @license    JFLABO  License Ver. 3.0
  * @version    a-0.3
  * @link       http://pjfs.biz
@@ -66,7 +66,7 @@ function show_list(){
   	  echo '<a href="./freebie/emacs_tips_2.pdf" target="_blank">[Tips02]</a><BR><BR>';
 
 }
-	
+
 public $title="JFLABO::ChiMeRa->EmacsTips チュートリアル 2013";
 //ページタイトルを変えたいときはここを編集してください
 function get_title(){
@@ -160,8 +160,8 @@ function get_title(){
 			}else{
 							$S=file_get_contents($this->data_source);
 			}
-		
-		
+
+
 	  //ここから下はコンピュータさん向けの処理の依頼です。動いていれば理解しようとしなくてもいいです。
 	  $sep="--- -- -- -- --";
       	  $ar_bdy=explode("\n",$S);
@@ -180,11 +180,11 @@ function get_title(){
 	    if($j==count($stack)-1){
 	      for($k=$stack[$j][0]+1;$k<count($ar_bdy);$k++){
 		$CPT_block[$j][]=$ar_bdy[$k];
-	      } 
+	      }
 	    }else{
 	      for($k=$stack[$j][0]+1;$k<$stack[$j+1][0]-2;$k++){
 		$CPT_block[$j][]=$ar_bdy[$k];
-	      } 
+	      }
 	    }
 	   }
 
@@ -236,4 +236,12 @@ OBJ;
 $p++;
 	  }
 	}
+		function export_json_file(){
+
+		}
+
+		function export_xml_file(){
+
+		}
+		
 }
