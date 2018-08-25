@@ -133,6 +133,7 @@ for ($i = 0; $i < count($stack); $i++) {
   echo "</item>"."\n";
 }
 echo "<xml>";
+
 //print count($stack);
 //echo $homepage;
 //echo "a";
