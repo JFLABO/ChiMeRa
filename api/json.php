@@ -119,14 +119,14 @@ $comming_soon_or_do_it_yourself="180";
 echo "{"."\n";
 for ($i = 0; $i < count($stack); $i++) {
   echo "\"title\":";
-    echo "\"".addslashes($stack[$i][1])."\""."\n";
+    echo "\"".addslashes(str_replace('"', "&quot;", $stack[$i][1]))."\""."\n";
     echo ",";
   echo "\"body\":";
     $str="";
     foreach($CPT_block[$i] as $val){
       $str=$str.$val."\n";
     }
-    echo "\"".addslashes($str)."\""."\n";
+    echo "\"".addslashes(str_replace('"', "&quot;",$str))."\""."\n";
     echo ",";
   echo "\"priority_or_score_type_A_etc...\":";
     echo "\"".$comming_soon_or_do_it_yourself."\""."\n";
