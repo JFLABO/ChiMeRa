@@ -1,7 +1,7 @@
 <?php
 /**
  * ChiMeRaの関数群 試作　第1版　(Alpha-01)
- * [Framework MicroCode]
+ * [Framework MicroCode] @Cafe around Tokyo Skytree
  * @link       http://pjfs.biz
  *
  * @category   internet_system
@@ -17,7 +17,7 @@
  * ChiMeRaの関数群
  * @category   internet_system
  * @package    JFLABO
- * @copyright  JFLABO 
+ * @copyright  JFLABO  Tokitaka Abe
  * @license    JFLABO  License Ver. 3.0
  * @version    a-0.3
  */
