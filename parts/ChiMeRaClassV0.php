@@ -59,8 +59,8 @@ function show_list(){
 	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata11">推薦図書</a><BR><BR>';
 	  echo '<a href="./?param=JFLABO::ChiMeRa::Hinagata12">[R&D]</a><BR><BR>';
 
-	  echo '<a href="./api/json.php?param=JFLABO::ChiMeRa::necessary_thing">[JSON]</a><BR>';
-  	  echo '<a href="./api/xmlapi.php?param=JFLABO::ChiMeRa::necessary_thing">[XML]</a><BR><BR>';
+	  echo '<a href="./api/json.php?param=JFLABO::ChiMeRa::necessary_thing">[JSON]</a> ';
+  	  echo '<a href="./api/xmlapi.php?param=JFLABO::ChiMeRa::necessary_thing">[XML]</a><BR>';
 
 	  echo '<a href="./freebie/emacs_Tips.pdf" target="_blank">[Tips01]</a><BR>';
   	  echo '<a href="./freebie/emacs_tips_2.pdf" target="_blank">[Tips02]</a><BR><BR>';
