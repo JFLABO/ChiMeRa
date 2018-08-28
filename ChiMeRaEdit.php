@@ -98,7 +98,7 @@ function open_editor(fn){
     <table width="909" height="18" border="0" cellpadding="0" cellspacing="0">
       <tr>
         <td width="655" valign="top" align="left">
-
+          データファイルの一覧（クリックしてください）<BR>
           <?php
           foreach (glob("./data/*.chimera") as $filename) {
             echo "<a onclick=\"open_editor('$filename');\">"."$filename size:" . filesize($filename) . "</a><BR>";
