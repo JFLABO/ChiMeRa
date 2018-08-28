@@ -128,10 +128,18 @@ for ($i = 0; $i < count($stack); $i++) {
     }
     echo "\"".str_replace('"', "&quot;",$str)."\""."\n";
     echo ",";
-  echo "\"priority_or_score_type_A_etc...\":";
+    echo "\"priority_or_score_type_A_etc...\":";
     echo "\"".$comming_soon_or_do_it_yourself."\""."\n";
+    echo ",";
+    echo "\"date\":";
+      $date_text = $str;
+      //YYYY/MM/DDの日付形式を抽出する
+      preg_match('|\d{4}\/\d{1,2}\/\d{1,2}|', $date_text, $date_match);
+      echo "\"".$date_match[0]."\""."\n";
 }
 echo "}";
+
+
 
 //print count($stack);
 //echo $homepage;
