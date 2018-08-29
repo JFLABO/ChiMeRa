@@ -222,6 +222,7 @@ OBJ;
 				$date_text = $str;
 				//YYYY/MM/DDの日付形式を抽出する
 				preg_match('|\d{4}\/\d{1,2}\/\d{1,2}|', $date_text, $date_match);
+				preg_match("/([0-1][0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9])/", $date_text,$tm);
 	    }
 	    $q=$p+1;
 
@@ -231,7 +232,7 @@ echo <<< OBJ
     <li style="padding:15px 5px 2px 10px;text-align:left;vertical-align:middle;list-style-type:none;">
 <span style="padding:5px 10px 2px 0px;text-align:left;vertical-align:middle;font-weight: bold;">$title[1]</span></li>
     <hr style="height:1px;margin:1px 10px;">
-		<span style="padding:5px 10px 2px 0px;font-size:14px;float:right;text-align:right;width:100%;vertical-align:middle;">$date_match[0]</span><BR>
+		<span style="padding:5px 10px 2px 0px;font-size:14px;float:right;text-align:right;width:100%;vertical-align:middle;">$date_match[0] $tm[0]</span><BR>
 
 <li style="padding:5px 5px 2px 10px;text-align:left;vertical-align:middle;list-style-type:none;">
 <span style="padding:5px 10px 2px 0px;font-size:14px;text-align:left;vertical-align:middle;">$str</span></li><br>
