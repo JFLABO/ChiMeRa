@@ -136,8 +136,9 @@ for ($i = 0; $i < count($stack); $i++) {
       $date_text = $str;
       //YYYY/MM/DDの日付形式を抽出する
       preg_match('|\d{4}\/\d{1,2}\/\d{1,2}|', $date_text, $date_match);
-      echo "\"".$date_match[0]."\""."\n";
-
+      preg_match("/([0-1][0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9])/", $date_text,$tm);
+      echo "\"".$date_match[0]." ".$tm[0]."\""."\n";
+      //var_dump($foo);
       echo "}";
       $a=count($stack)-1;
       if($a!=$i){
