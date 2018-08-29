@@ -116,8 +116,9 @@ $CPT_block[$j][]=$ar_bdy[$k];
 //var_dump($stack);
 //var_dump($CPT_block);
 $comming_soon_or_do_it_yourself="180";
-echo "{"."\n";
+echo "["."\n";
 for ($i = 0; $i < count($stack); $i++) {
+  echo "{"."\n";
   echo "\"title\":";
     echo "\"".str_replace('"', "&quot;", $stack[$i][1])."\""."\n";
     echo ",";
@@ -136,8 +137,9 @@ for ($i = 0; $i < count($stack); $i++) {
       //YYYY/MM/DDの日付形式を抽出する
       preg_match('|\d{4}\/\d{1,2}\/\d{1,2}|', $date_text, $date_match);
       echo "\"".$date_match[0]."\""."\n";
+      echo "]";
 }
-echo "}";
+echo "]";
 
 
 
