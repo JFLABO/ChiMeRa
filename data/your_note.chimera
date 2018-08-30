@@ -9,10 +9,12 @@
 
 ;emacsでF5を押すとタイムスタンプを打つ設定 ~/.emacs.d/init.el
 
+<pre>
 (define-key global-map [f5]
   '(lambda ()
      (interactive)
      (insert (format-time-string "%Y/%m/%d %H:%M:%S"))))
+</pre>
 
 タイトル２ どうすれば、まずうまく行く状態にできるか
 --- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
