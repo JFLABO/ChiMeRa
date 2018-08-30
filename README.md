@@ -11,6 +11,8 @@
 
 はじめに
 　Ubuntuなどでサーバを立ててphp-mbstringをサーバに導入してください
+ 
+  apt-get -y install php-mbstring
 
 インストール方法　[はじめかた]
 
