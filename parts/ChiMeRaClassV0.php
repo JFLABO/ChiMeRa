@@ -70,6 +70,11 @@ function show_list(){
 public $title="JFLABO::ChiMeRa->EmacsTips チュートリアル 2013";
 //ページタイトルを変えたいときはここを編集してください
 function get_title(){
+			$mystring = $_GET['param'];
+			$findme   = '#';
+			$pos = strpos($mystring, $findme);
+			$this->title=$pos;
+			/*
 			if(isset($_GET['param'])){
 					if($_GET['param']=="EmacsTips チュートリアル 2013"){
 							$this->title="JFLABO::ChiMeRa->EmacsTips チュートリアル 2013";
@@ -105,6 +110,7 @@ function get_title(){
 			}else{
 					//
 			}
+			*/
 			return $this->title;
 }
 
@@ -197,7 +203,11 @@ function get_title(){
 	    $title_m="チャプターリスト(インデックス)";
 	    $cpt=1;
 	    foreach($stack as $val){
-	      $str=$str.'<a href="#'.$cpt.'">'.$cpt.": ".$val[1]."</a><br>";
+	      //$title_m_2=str_replace('チャプターリスト(インデックス)");', '', $title_m);
+	      //$title_m_2=str_replace('");">', '', $title_m2);
+	      $v=$val[1];
+	      $v = str_replace(array("\r\n", "\r", "\n"), '', $v);
+	      $str=$str.'<a href="#'.$cpt.'" onclick="reset_title(\''.$v.'\');">'.$cpt.": ".$val[1]."</a><br>";
 	      $cpt++;
 	    }
 //HTML ダンプ　ヒアドキュメント表記
