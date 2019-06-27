@@ -22,7 +22,12 @@ $Title_min="JFLABO::ChiMeRa";
 <link rel="stylesheet" href="parts/tbrp3.css" type="text/css" media="screen" />
 
 <title><?php echo $Title;?></title>
-
+<script type="text/javascript"><!--
+function reset_title(s){
+document.title=s;
+}
+//-->
+</script>
 </head>
 <body class="oneColLiqCtrHdr">
 <div id="container">
