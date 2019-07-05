@@ -1,4 +1,7 @@
 <?php
+error_reporting(E_ALL & ~E_NOTICE);
+?>
+<?php
 $S = file_get_contents('../data/hinagata.chimera');
 $data_source = "../data/emacs_turorial_jp.chimera";
 //your_note.chimera　hinagata7.chimeraなどは好きな名前に変更してください。
