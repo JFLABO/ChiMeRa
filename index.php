@@ -1,3 +1,6 @@
+<?php
+error_reporting(E_ALL & ~E_NOTICE);
+?>
 <?php 
 require_once('parts/ChiMeRaClassV0.php');
 $UT2=new ChiMeRa_emacs_class();
