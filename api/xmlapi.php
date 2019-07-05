@@ -1,4 +1,7 @@
 <?php
+error_reporting(E_ALL & ~E_NOTICE);
+?>
+<?php
 $S = file_get_contents('../data/hinagata.chimera');
 $data_source = "../data/emacs_turorial_jp.chimera";
 //$data_source = "../data/your_note.chimera";
