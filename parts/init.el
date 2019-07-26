@@ -5,5 +5,4 @@
 (define-key global-map [f6]
   '(lambda ()
      (interactive)
-          (insert ("--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-"))))
+               (insert (format-time-string "--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --"))))
