@@ -3,7 +3,12 @@
   '(lambda ()
      (interactive)
           (insert (format-time-string "%Y/%m/%d %H:%M:%S"))))
-          
+
+ ;emacsでF6押したら ChiMeRa2のセパレータが入力される
+(define-key global-map [f6]
+  '(lambda ()
+     (interactive)
+          (insert (format-time-string "--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- %Y"))))         
 (package-initialize)
 (setq package-archives
       '(("gnu" . "http://elpa.gnu.org/packages/")
